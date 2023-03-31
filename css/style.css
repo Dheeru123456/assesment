@@ -9,6 +9,7 @@
 
 body {
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 
 /********** header part **********/
@@ -22,6 +23,11 @@ body {
     background-color: black;
     display: flex;
     justify-content: space-between;
+}
+
+.hver-phone:hover{
+    border-bottom: 4px solid lavenderblush;
+    height:5vh;
 }
 
 #contact-list {
@@ -163,8 +169,9 @@ p {
     font-size: 18px;
     color: #ffffff;
     font-weight: 500;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
 }
+
 
 #nav-content {
     display: none;
@@ -267,7 +274,7 @@ p {
 
 .parent-gifts-card {
     /* color: #ffffff; */
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     display: flex;
     /* width: 60%; */
     margin-left: 7%;
@@ -275,7 +282,7 @@ p {
 
 .parent-gift-card {
     /* color: #ffffff; */
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     display: flex;
     margin-left: 1%;
     /* width: 60%; */
@@ -399,7 +406,7 @@ p {
     /* width: 1601px; */
     height: 89.379vh;
     background-color: #f2f3f3;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     /* display: flex; */
     text-align: center;
     margin-top: 5%;
@@ -419,6 +426,7 @@ p {
     background-image: url(../images/Layer\ 17.svg);
     /* position: relative; */
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .ring-card {
@@ -427,6 +435,7 @@ p {
     background-image: url(../images/Layer\ 33.svg);
     /* position: relative; */
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .love-card {
@@ -436,6 +445,7 @@ p {
     /* position: relative; */
     background-size: contain;
     clip-path: inset(0% 0% 10% 0%);
+    background-repeat: no-repeat;
 }
 
 .jar-card {
@@ -444,6 +454,7 @@ p {
     background-image: url(../images/Layer\ 34.svg);
     /* position: relative; */
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -465,7 +476,7 @@ p {
     line-height: 4.063rem;
     color: #121212;
     font-weight: 600;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     padding-top: 3%;
 }
 
@@ -503,6 +514,10 @@ p {
     color: #00aaa0;
 }
 
+.lorem-do{
+    margin-top: 2.5%;
+}
+
 .lorem-dol {
     font-size: 16px;
     line-height: 2rem;
@@ -532,7 +547,7 @@ p {
     /* width: 1601px; */
     height: 89.379vh;
     /* background-color: #f2f3f3; */
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     /* display: flex; */
     text-align: center;
     /* margin-top: 5%; */
@@ -549,6 +564,7 @@ p {
     /* position: relative; */
     background-size: contain;
     clip-path: inset(0% 0% 29% 0%);
+    background-repeat: no-repeat;
 }
 
 .saree-card {
@@ -558,6 +574,7 @@ p {
     /* position: relative; */
     background-size: contain;
     clip-path: inset(0% 0% 21% 0%);
+    background-repeat: no-repeat;
 }
 
 .church-card {
@@ -567,6 +584,7 @@ p {
     /* position: relative; */
     background-size: contain;
     clip-path: inset(0% 0% 21% 0%);
+    background-repeat: no-repeat;
 }
 
 .girl-card {
@@ -576,30 +594,27 @@ p {
     /* position: relative; */
     background-size: contain;
     clip-path: inset(0% 0% 21% 0%);
+    background-repeat: no-repeat;
 }
 
 .lorem-div-4 {
     position: absolute;
-    top: 392%;
-    right: 16%;
+    translate: 29% -64%;
 }
 
 .lorem-div-3 {
     position: absolute;
-    top: 392%;
-    right: 36%;
+    translate: 29% -64%;
 }
 
 .lorem-div-2 {
     position: absolute;
-    top: 392%;
-    left: 32%;
+    translate: 29% -64%;
 }
 
 .lorem-div-1 {
     position: absolute;
-    top: 392%;
-    left: 10%;
+    translate: 34% -83%;
 }
 
 .left-arr {
@@ -776,7 +791,7 @@ p {
     /* line-height: 91px; */
     color: #725834;
     font-weight: 600;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     padding-left: 12%;
     height: 42%;
 }
@@ -786,7 +801,7 @@ p {
     /* line-height: 91px; */
     color: #725834;
     /* font-weight: 600; */
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     padding-left: 55%;
 }
 
@@ -800,7 +815,7 @@ p {
     line-height: 64px;
     color: #725834;
     font-weight: 400;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
 }
 
 .btn-brown {
@@ -813,7 +828,7 @@ p {
     /* line-height: 18px; */
     color: #f7f7f7;
     font-weight: 400;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     margin-left: 5%;
 }
 
@@ -833,7 +848,7 @@ p {
     line-height: 64px;
     color: #725834;
     font-weight: 400;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
 }
 
 .btn-brow {
@@ -846,7 +861,7 @@ p {
     /* line-height: 18px; */
     color: #f7f7f7;
     font-weight: 400;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     margin-left: 40%;
 }
 
@@ -857,9 +872,7 @@ p {
     border-radius: 75px;
     background-color: #e7cba9;
     padding-top: 2%;
-    transform: translateY(-499px);
-    /* right: 11%; */
-    left: 44%;
+    translate: 393% -330%;
 }
 
 /************* why shop with us ******************/
@@ -868,7 +881,7 @@ p {
     line-height: 65px;
     color: #121212;
     font-weight: 600;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     text-align: center;
     margin-top: 4%;
 }
@@ -922,7 +935,7 @@ p {
     /* line-height: 17px; */
     color: #353535;
     font-weight: 800;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     margin-top: 2%;
 }
 
@@ -931,7 +944,7 @@ p {
     /* line-height: 19px; */
     color: #353535;
     font-weight: 300;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
 }
 
 /************* newsletter part *****************/
@@ -964,7 +977,7 @@ p {
     background-color: black;
     color: #e8e8e8;
     border: none;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
 }
 
 .news-para {
@@ -1021,7 +1034,7 @@ p {
 
 /*************** footer part ******************/
 .parent-footer {
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     background-color: #f5f4f4;
 }
 
@@ -1054,20 +1067,78 @@ p {
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
-    /* font-family: 'Poor Richard', sans-serif; */
 }
 
 .social-icon {
     word-spacing: 2vw;
 }
 
-/************ media query *************/
+.color-div{
+    background-color: #00aaa0;
+    width: 25%;
+    color: white;
+    padding-left: 1%;
+    padding-top: 0.3%;
+    line-height: 7vh;
+    /* height: 25vh; */
+    margin-left: 70%;
+    /* font-family: "Poppins",sans-serif; */
+    border-radius: 10px;
+    transform:translateY(0px) ;
+    transition-duration: 5s;
+    /* animation-name: visible; */
+    
+}
 
-@media (max-width: 600px) {
+.hide-div{
+    display: none;
+}
+
+
+.color-div:hover .hide-div{
+    display: block;
+}
+
+.color-div:hover{
+    animation-name: visible;
+    animation-duration: 3s;
+}
+
+@keyframes visible{
+    100% { transform:translateY(-100px) ;}
+}
+
+
+
+.fa-commenting-o:before{
+    font-size: 2rem;
+}
+
+#chat-with-us{
+    width: 75%;
+    height: 5vh;
+    padding-left: 2%;
+    border: none;
+    border-radius: 15px;
+}
+
+.chat-now{
+    display: flex;
+    justify-content: space-between;
+    /* width: 25%; */
+}
+
+/************ media query *************/
+@media screen and (max-width: 992px) {
     .parent-gifts-card {
         width: 100%;
-        margin-left: 0%;
-        margin-top: 3%;
+        margin-left: 9%;
+        margin-top: 8%;
+    }
+
+    .pink-lorem{
+        padding-bottom: 6%;
+        width: 85%;
     }
 
     .gift-card {
@@ -1079,59 +1150,67 @@ p {
     }
 
     .pink-card {
-        height: 26.758vh;
-        width: 75.807vw;
+        height: max-content;
+        width: 46.807vw;
         transform: translateX(17px);
         font-size: 10px;
     }
 
     .trape {
-        width: 81.583vw;
+        width: 44.583vw;
         transform: translateX(-46px);
+        background-size: 265px 253px;
+        background-repeat: no-repeat;
     }
 
     .orange-card {
-        height: 30vh;
-        width: 75.807vw;
+        height: max-content;
+        width: 46.807vw;
         transform: translateX(16px);
         font-size: 10px;
     }
 
     .trap {
-        width: 81vw;
+        width: 44.583vw;
         transform: translateX(-44px);
         background-position: center;
+        background-size: 265px 253px;
+        background-repeat: no-repeat;
     }
 
     .parent-gift-card {
         width: 100%;
-        margin-left: 0%;
-        margin-top: 3%;
+        margin-left: 9%;
+        margin-top: 8%;
     }
 
     .purple-card {
-        height: 26.758vh;
-        width: 75.807vw;
+        height: max-content;
+        width: 46.807vw;
         transform: translateX(17px);
         font-size: 10px;
     }
 
     .purple-img {
-        width: 81.583vw;
+        width: 44.583vw;
         transform: translateX(-46px);
+        /* background-size: 265px 253px; */
+        background-repeat: no-repeat;
     }
 
     .green-card {
-        height: 30vh;
-        width: 75.807vw;
+        height: max-content;
+        width: 46.807vw;
         transform: translateX(16px);
         font-size: 10px;
     }
 
     .green-img {
-        width: 81vw;
+        width: 44.583vw;
         transform: translateX(-44px);
         background-position: center;
+        background-size: 265px 253px;
+        background-repeat: no-repeat;
     }
 
     .white-shop {
@@ -1215,11 +1294,14 @@ p {
 
     .best-selling-card {
         flex-wrap: wrap;
+        justify-content: center;
+        /* margin-left: 10%; */
     }
 
     .layer-cards {
-        width: 81.886vw;
+        width: 76.886vw;
         height: 37.12vh;
+        
     }
 
     .love-card {
@@ -1227,12 +1309,12 @@ p {
     }
 
     .ring-card {
-        width: 81.886vw;
+        width: 77.886vw;
         height: 34.12vh;
     }
 
     .jar-card {
-        width: 81vw;
+        width: 76vw;
     }
 
     .best-tilt {
@@ -1253,24 +1335,35 @@ p {
     }
 
     .bike-card {
-        width: 89.487vw;
+        width: 81.487vw;
+        height: 35.973vh;
     }
 
     .saree-card {
-        width: 87.4vw;
+        width: 79.4vw;
         height: 40.57vh;
+        margin-top: 9%;
     }
 
     .church-card {
-        width: 87.686vw;
+        width: 83.686vw;
         height: 42.57vh;
-        margin-top: 10%;
+        margin-top: 14%;
+    }
+
+    .parent-sel{
+        margin-left: 0%;
+    }
+
+    .layer-div{
+        margin-left: 0%;
+        margin-top: 4%;
     }
 
     .girl-card {
-        width: 86.085vw;
+        width: 81.085vw;
         height: 40.57vh;
-        margin-top: 10%;
+        margin-top: 14%;
     }
 
     .layer-39-img {
@@ -1296,22 +1389,19 @@ p {
     }
 
     .lorem-div-1 {
-        top: 451%;
-        left: 32%;
+        translate: 51% -98%;
     }
 
     .lorem-div-2 {
-        top: 495%;
+        translate: 58% -86%;
     }
 
     .lorem-div-3 {
-        top: 541%;
-        right: 28%;
+        translate: 58% -86%;
     }
 
     .lorem-div-4 {
-        top: 585%;
-        right: 28%;
+        translate: 58% -86%;
     }
 
     .digital-printing {
@@ -1339,11 +1429,23 @@ p {
         display: none;
     }
 
+    .mar-para{
+        translate: 0% -56%;
+    }
+
+    .mar-par{
+        translate: 0% -120%;
+    }
+
+    .lorem-dol{
+        margin-top: 0%;
+    }
+
     .gifts-under,
     .gift-under {
         flex-wrap: wrap;
         width: 100%;
-        margin-top: 8%;
+        margin-top: 10%;
         height: 12.5vh;
         margin-left: 0%;
     }
@@ -1379,7 +1481,8 @@ p {
     }
 
     .content-part {
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+        text-align: center;
     }
 
     .info,
@@ -1388,10 +1491,15 @@ p {
         margin-top: 5%;
     }
 
-    .last-img {
+    /* .last-img {
         width: 112%;
-    }
+    } */
 
+    .last-part{
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+    
     .parent-newsletter {
         height: 9vh;
     }
@@ -1490,7 +1598,6 @@ p {
     }
 
     #nav-content {
-        display: block;
         z-index: 2;
         width: 100%;
         line-height: 6vh;
@@ -1499,6 +1606,13 @@ p {
         position: absolute;
         padding-left: 4%;
     }
-}
 
+    .color-div{
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .credit-cards{
+        display: none;
+    }
 }

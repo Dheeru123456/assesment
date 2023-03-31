@@ -13,3 +13,7 @@ function showContent(){
 function hideShowContent(){
     document.getElementById("nav-content").style.display = "none";
 }
+
+function chatNow(){
+    
+}
