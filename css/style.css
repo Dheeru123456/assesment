@@ -1,0 +1,1504 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+@import url(https://db.onlinewebfonts.com/c/1333b13c4f911f3160f1c2822573f70c?family=Poor+Richard);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/********** header part **********/
+
+.black-parent {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8750em;
+    color: #ffffff;
+    font-weight: 400;
+    height: 6.5vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-list {
+    display: none;
+}
+
+.three-dots {
+    display: none;
+}
+
+.phone-mail {
+    display: flex;
+    padding-top: 0.8%;
+    /* border:2px solid white; */
+    justify-content: space-around;
+    width: 29%;
+}
+
+
+.parent-gifts {
+    padding: 1%;
+    height: 9.244vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    margin-left: 2%;
+}
+
+.gifts-card {
+    font-family: 'Poor Richard', sans-serif;
+    font-size: 2.875rem;
+    color: #00aaa0;
+    display: flex;
+    word-spacing: 1%;
+    /* border: 2px solid; */
+}
+
+.gift-color {
+    color: #292929;
+    margin-left: 7%;
+}
+
+.logo-img {
+    position: absolute;
+    margin-left: -0.2%;
+}
+
+.separate-gift {
+    color: #292929;
+    font-size: 1.688rem;
+    padding: 1.5%;
+    position: absolute;
+    margin-left: 4.5%;
+}
+
+p {
+    margin: 0%;
+}
+
+.arts-color {
+    margin-left: 17%;
+}
+
+.shop-search {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding-top: 0.5%;
+}
+
+.search-bar {
+    width: 29.47vw;
+    height: 47px;
+    border-radius: 24px;
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.fa-search {
+    padding-top: 30%;
+    padding-left: 34%;
+    display: flex;
+    color: #f2f2f2;
+    font-weight: 100;
+}
+
+#search {
+    font-size: 1rem;
+    color: #919191;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    width: 29.47vw;
+    height: 47px;
+    border-radius: 24px;
+    background-color: #f2f2f2;
+    border: none;
+    padding-left: 4%;
+}
+
+.search-img {
+    width: 41px;
+    height: 41px;
+    border-radius: 21px;
+    background-color: #00aaa0;
+    /* position: absolute; */
+    margin-top: 0.7%;
+    margin-left: -13.5%;
+}
+
+.shopping-cart {
+    width: 8vw;
+    height: 5.39vh;
+    border-radius: 2px;
+    background-color: #00aaa0;
+    word-spacing: 5px;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2%;
+    padding-top: 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .cart-para{
+    padding-left: 1%;
+    word-spacing: 5px;
+} */
+
+/********** navbar part ***********/
+.navbar-parent {
+    display: flex;
+    background-color: #00aaa0;
+    margin-top: 2%;
+    height: 9.244vh;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+#nav-content {
+    display: none;
+}
+
+#div-toggle {
+    display: none;
+}
+
+.nav-content {
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 2%;
+}
+
+/********* sales upto 50% off **********/
+.parent-sales {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.gift-pundit {
+    background-color: #1e1515;
+    width: 99.99%;
+    height: 98vh;
+}
+
+.parent-special {
+    display: flex;
+}
+
+.para-sales {
+    font-size: 2.063rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.para-off {
+    font-size: 2.063rem;
+    color: #00aaa0;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.parent-special {
+    font-size: 3.313rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.sale-upto {
+    position: absolute;
+    top: 20%;
+    margin-left: 3%;
+}
+
+.para-2020 {
+    color: #00aaa0;
+    margin-left: 10%;
+}
+
+.lorem-para {
+    font-size: 1.063rem;
+    line-height: 4.160vh;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.shop-btn {
+    width: 9.809vw;
+    height: 6.471vh;
+    border-radius: 19px;
+    background-color: #00aaa0;
+    border: none;
+    font-size: 1.063rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+/******** gifts gallery part *********/
+
+.gift-card {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.gift-car {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* margin-top: 5%; */
+    margin-top: 1%;
+}
+
+.parent-gifts-card {
+    /* color: #ffffff; */
+    font-family: "Poppins";
+    display: flex;
+    /* width: 60%; */
+    margin-left: 7%;
+}
+
+.parent-gift-card {
+    /* color: #ffffff; */
+    font-family: "Poppins";
+    display: flex;
+    margin-left: 1%;
+    /* width: 60%; */
+}
+
+.pink-card {
+    background-color: #dd3d49;
+    height: 53.758vh;
+    width: 24.807vw;
+    transform: translateX(95px);
+    clip-path: polygon(0 0, 100% 0%, 81% 100%, 0% 100%);
+    padding-left: 4%;
+    padding-top: 8%;
+    font-size: 13px;
+    /* line-height: 33px; */
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.purple-card {
+    background-color: #7f4895;
+    height: 53.758vh;
+    width: 24.807vw;
+    transform: translateX(95px);
+    clip-path: polygon(0 0, 100% 0%, 81% 100%, 0% 100%);
+    padding-left: 4%;
+    padding-top: 8%;
+    font-size: 13px;
+    /* line-height: 33px; */
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.orange-card {
+    background-color: #ed6728;
+    height: 53.758vh;
+    width: 24.807vw;
+    clip-path: polygon(0 0, 100% 0%, 81% 100%, 0% 100%);
+    padding-left: 4%;
+    padding-top: 7%;
+    font-size: 13px;
+    /* line-height: 33px; */
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.green-card {
+    background-color: #489560;
+    height: 53.758vh;
+    width: 24.807vw;
+    clip-path: polygon(0 0, 100% 0%, 81% 100%, 0% 100%);
+    padding-left: 4%;
+    padding-top: 7%;
+    font-size: 13px;
+    /* line-height: 33px; */
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.trap {
+    background-image: url(../images/Layer\ 45.png);
+    width: 34.501vw;
+    transform: translateX(-200px);
+    z-index: -1;
+    background-position-y: center;
+    background-position: content;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+
+.trape {
+    background-image: url(../images/pexels-pixabay-51193.png);
+    width: 24.583vw;
+    /* transform: translateX(-103px); */
+    z-index: -1;
+    background-position-y: center;
+    background-position: content;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+
+.purple-img {
+    background-image: url(../images/Layer\ 51.png);
+    width: 24.583vw;
+    /* transform: translateX(-103px); */
+    z-index: -1;
+    background-position-y: center;
+    background-position: content;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+
+.green-img {
+    background-image: url(../images/Layer\ 50.png);
+    width: 34.501vw;
+    transform: translateX(-200px);
+    z-index: -1;
+    background-position-y: center;
+    background-position: content;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+
+.gift-gallery {
+    font-size: 1.688rem;
+    font-weight: 500;
+}
+
+.white-shop {
+    width: 6.222vw;
+    height: 3.852vh;
+    border-radius: 13px;
+    background-color: #ffffff;
+    border: none;
+    margin-top: 6%;
+}
+
+
+/************ best selling gifts ****************/
+.parent-best-selling {
+    /* width: 1601px; */
+    height: 89.379vh;
+    background-color: #f2f3f3;
+    font-family: "Poppins";
+    /* display: flex; */
+    text-align: center;
+    margin-top: 5%;
+}
+
+.best-selling-card {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* width:1413px; */
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.layer-cards {
+    width: 17.886vw;
+    height: 37.12vh;
+    background-image: url(../images/Layer\ 17.svg);
+    /* position: relative; */
+    background-size: contain;
+}
+
+.ring-card {
+    width: 19.55vw;
+    height: 36.82vh;
+    background-image: url(../images/Layer\ 33.svg);
+    /* position: relative; */
+    background-size: contain;
+}
+
+.love-card {
+    width: 19.487vw;
+    height: 40.960vh;
+    background-image: url(../images/Layer\ 32.svg);
+    /* position: relative; */
+    background-size: contain;
+    clip-path: inset(0% 0% 10% 0%);
+}
+
+.jar-card {
+    width: 17.81vw;
+    height: 36.60vh;
+    background-image: url(../images/Layer\ 34.svg);
+    /* position: relative; */
+    background-size: contain;
+}
+
+
+.layer-div {
+    margin-left: 2%;
+}
+
+.first-card {
+    margin-left: 2.5%;
+}
+
+/* .layer-card {
+    width: 20.508vw;
+    height: 39.339vh;
+} */
+
+.head-best {
+    font-size: 2.5rem;
+    line-height: 4.063rem;
+    color: #121212;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-top: 3%;
+}
+
+.best-tilt {
+    font-size: 5.625rem;
+    color: #e8e8e8;
+    font-weight: 800;
+    transform: rotateZ(-91deg);
+    position: absolute;
+    right: -16%;
+    top: 289%;
+}
+
+.fa-angle-left:before {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.fa-angle-right:before {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00aaa0;
+}
+
+.right-ang {
+    position: absolute;
+    top: 295%;
+    right: 6%;
+}
+
+.angle {
+    position: absolute;
+    top: 295%;
+    left: 5%;
+    color: #00aaa0;
+}
+
+.lorem-dol {
+    font-size: 16px;
+    line-height: 2rem;
+    color: #121212;
+    font-weight: 500;
+    margin-top: 10%;
+}
+
+.lorem-doll {
+    font-size: 16px;
+    line-height: 2rem;
+    color: #121212;
+    font-weight: 500;
+    margin-top: 44%;
+}
+
+.para-120 {
+    font-size: 18px;
+    line-height: 2rem;
+    color: #00aaa0;
+    font-weight: 500;
+}
+
+/************** best selling prints ****************/
+
+.parent-best-prints {
+    /* width: 1601px; */
+    height: 89.379vh;
+    /* background-color: #f2f3f3; */
+    font-family: "Poppins";
+    /* display: flex; */
+    text-align: center;
+    /* margin-top: 5%; */
+}
+
+.parent-sel {
+    margin-left: 4%;
+}
+
+.bike-card {
+    width: 19.487vw;
+    height: 40.973vh;
+    background-image: url(../images/Layer\ 40.svg);
+    /* position: relative; */
+    background-size: contain;
+    clip-path: inset(0% 0% 29% 0%);
+}
+
+.saree-card {
+    width: 17.686vw;
+    height: 36.57vh;
+    background-image: url(../images/Layer\ 41.svg);
+    /* position: relative; */
+    background-size: contain;
+    clip-path: inset(0% 0% 21% 0%);
+}
+
+.church-card {
+    width: 17.686vw;
+    height: 36.57vh;
+    background-image: url(../images/Layer\ 42.svg);
+    /* position: relative; */
+    background-size: contain;
+    clip-path: inset(0% 0% 21% 0%);
+}
+
+.girl-card {
+    width: 17.085vw;
+    height: 36.57vh;
+    background-image: url(../images/Layer\ 43.svg);
+    /* position: relative; */
+    background-size: contain;
+    clip-path: inset(0% 0% 21% 0%);
+}
+
+.lorem-div-4 {
+    position: absolute;
+    top: 392%;
+    right: 16%;
+}
+
+.lorem-div-3 {
+    position: absolute;
+    top: 392%;
+    right: 36%;
+}
+
+.lorem-div-2 {
+    position: absolute;
+    top: 392%;
+    left: 32%;
+}
+
+.lorem-div-1 {
+    position: absolute;
+    top: 392%;
+    left: 10%;
+}
+
+.left-arr {
+    position: absolute;
+    top: 381%;
+    left: 6%;
+    color: #00aaa0;
+}
+
+.right-arr {
+    position: absolute;
+    top: 381%;
+    right: 6.5%;
+}
+
+/*********** gifts under 999 part **************/
+.parent-under-999 {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.gifts-under {
+    display: flex;
+    background-color: #dd3d49;
+    color: #f2f2f2;
+    width: 42%;
+    margin-left: 6%;
+    height: 20.5vh;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.gift-under {
+    display: flex;
+    background-color: #ed6728;
+    color: #f2f2f2;
+    width: 42%;
+    margin-left: 3%;
+    height: 20.5vh;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.gift-box {
+    width: 108px;
+    height: 108px;
+    border-radius: 54px;
+    background-color: #ffffff;
+    padding-top: 1%;
+}
+
+.fa-gift:before {
+    /* padding-top: 3%; */
+    padding-left: 27%;
+    font-size: 5rem;
+    color: #dd3d49;
+}
+
+.gift-span {
+    font-size: 37px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+.span-under {
+    font-size: 27px;
+    line-height: 18px;
+    color: #ffffff;
+    /* font-weight: 200; */
+}
+
+.padding-gift {
+    padding-top: 8%;
+    word-spacing: 0.2rem;
+    width: 63%;
+}
+
+.small-bubble {
+    border-radius: 54px;
+    background-color: #f2f2f244;
+    height: 26px;
+    width: 24px;
+    transform: translateX(118px);
+    margin-top: 1%;
+    position: absolute;
+}
+
+.smal-bubble {
+    border-radius: 54px;
+    background-color: #f2f2f244;
+    height: 26px;
+    width: 24px;
+    transform: translateX(725px);
+    margin-top: 1%;
+    position: absolute;
+}
+
+.medium-bubble {
+    border-radius: 54px;
+    background-color: #f2f2f244;
+    height: 42px;
+    width: 42px;
+    transform: translateX(431px);
+    margin-top: 1%;
+    position: absolute;
+}
+
+.mediu-bubble {
+    border-radius: 54px;
+    background-color: #f2f2f244;
+    height: 42px;
+    width: 42px;
+    transform: translateX(1030px);
+    margin-top: 1%;
+    position: absolute;
+}
+
+
+.large-bubble {
+    border-radius: 54px;
+    background-color: #f2f2f244;
+    height: 36px;
+    width: 36px;
+    transform: translateX(306px);
+    margin-top: 6.5%;
+    position: absolute;
+}
+
+.larg-bubble {
+    border-radius: 54px;
+    background-color: #f2f2f244;
+    height: 36px;
+    width: 36px;
+    transform: translateX(927px);
+    margin-top: 6.5%;
+    position: absolute;
+}
+
+/************ digital printing part *************/
+.parent-digital {
+    margin-top: 5%;
+}
+
+.digital-img {
+    width: 100%;
+    background-color: #00008b5c;
+}
+
+.layer-39-img {
+    width: 27.5%;
+    position: absolute;
+    transform: translateY(-432px);
+    /* transform: translateX(19px); */
+    /* margin-right: 12%; */
+    right: 15.9%;
+    clip-path: inset(0% 15% 0% 15%);
+    height: 53.2vh;
+}
+
+.circle-25-div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: #e7cba9;
+    padding-top: 2%;
+    translate: 1064px -538px;
+}
+
+.para-25 {
+    font-size: 3rem;
+    /* line-height: 91px; */
+    color: #725834;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-left: 12%;
+    height: 42%;
+}
+
+.para-of {
+    font-size: 2rem;
+    /* line-height: 91px; */
+    color: #725834;
+    /* font-weight: 600; */
+    font-family: "Poppins";
+    padding-left: 55%;
+}
+
+.digital-printing {
+    position: absolute;
+    translate: 161px -326px;
+}
+
+.dig-para {
+    font-size: 35px;
+    line-height: 64px;
+    color: #725834;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.btn-brown {
+    width: 98px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #725834;
+    border: none;
+    font-size: 14px;
+    /* line-height: 18px; */
+    color: #f7f7f7;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-left: 5%;
+}
+
+/************* canvas art painting part ***************/
+.canvas-img {
+    width: 100%;
+}
+
+.canvas-div {
+    position: absolute;
+    transform: translateY(-334px);
+    right: 7%;
+}
+
+.canvas-para {
+    font-size: 35px;
+    line-height: 64px;
+    color: #725834;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.btn-brow {
+    width: 98px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #725834;
+    border: none;
+    font-size: 14px;
+    /* line-height: 18px; */
+    color: #f7f7f7;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-left: 40%;
+}
+
+.circl-25-div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: #e7cba9;
+    padding-top: 2%;
+    transform: translateY(-499px);
+    /* right: 11%; */
+    left: 44%;
+}
+
+/************* why shop with us ******************/
+.header-why {
+    font-size: 40px;
+    line-height: 65px;
+    color: #121212;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 4%;
+}
+
+.parent-why-card {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.free-exchanges {
+    width: 21vw;
+    height: 32vh;
+    background-color: #f5f4f4;
+    text-align: center;
+}
+
+.fa-refresh {
+    background-color: #f0efef;
+    color: #00aaa0;
+    width: 71px;
+    height: 68px;
+    border-radius: 34px;
+    padding-top: 5%;
+    margin-top: 4%;
+}
+
+.fa-refresh:before {
+    font-size: 2rem;
+}
+
+
+#icon-env,
+#logo-env {
+    background-color: #f0efef;
+    color: #00aaa0;
+    width: 71px;
+    height: 68px;
+    border-radius: 34px;
+    padding-top: 5%;
+    margin-top: 4%;
+    font-size: 2rem;
+}
+
+/* .fa-envelope:before {
+    font-size: 2rem;
+} */
+
+.para-free {
+    font-size: 19px;
+    /* line-height: 17px; */
+    color: #353535;
+    font-weight: 800;
+    font-family: "Poppins";
+    margin-top: 2%;
+}
+
+.para-if {
+    font-size: 13px;
+    /* line-height: 19px; */
+    color: #353535;
+    font-weight: 300;
+    font-family: "Poppins";
+}
+
+/************* newsletter part *****************/
+.parent-newsletter {
+    display: flex;
+    background-color: #00aaa0;
+    height: 13vh;
+    justify-content: space-around;
+    padding-top: 1.5%;
+    margin-top: 5%;
+    font-family: "Poppins";
+}
+
+#your-email {
+    width: 23vw;
+    height: 6vh;
+    padding-left: 4%;
+    border: none;
+}
+
+.child-newsletter {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-btn {
+    height: 6vh;
+    width: 8vw;
+    background-color: black;
+    color: #e8e8e8;
+    border: none;
+    font-family: "Poppins";
+}
+
+.news-para {
+    color: #e8e8e8;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.we-send {
+    color: #e8e8e8;
+    font-size: 0.8rem;
+}
+
+.fac-icon {
+    width: 2vw;
+    height: 4vh;
+    background-color: #00aaa0;
+    box-shadow: 0px 0px 2px #489560;
+    padding-left: 8%;
+    padding-top: 4%;
+}
+
+.gplus-icon {
+    width: 2vw;
+    height: 4vh;
+    background-color: #00aaa0;
+    box-shadow: 0px 0px 2px #489560;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+.twit-icon {
+    width: 2vw;
+    height: 4vh;
+    background-color: #00aaa0;
+    box-shadow: 0px 0px 2px #489560;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.fa-wifi {
+    width: 2vw;
+    height: 4vh;
+    background-color: #00aaa0;
+    box-shadow: 0px 0px 2px #489560;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+.icon-div {
+    margin-top: 0.5%;
+    color: #e8e8e8;
+}
+
+/*************** footer part ******************/
+.parent-footer {
+    font-family: "Poppins";
+    background-color: #f5f4f4;
+}
+
+.contact-us i {
+    margin-left: 2%;
+}
+
+.content-part {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+}
+
+.content-part p {
+    font-size: 0.8rem;
+    line-height: 8vh;
+}
+
+#bold-words,
+#bold-word,
+#bold-wrds,
+#bld-words,
+#bold-fol {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    /* font-family: 'Poor Richard', sans-serif; */
+}
+
+.social-icon {
+    word-spacing: 2vw;
+}
+
+/************ media query *************/
+
+@media (max-width: 600px) {
+    .parent-gifts-card {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+
+    .gift-card {
+        flex-wrap: wrap;
+    }
+
+    .gift-car {
+        flex-wrap: wrap;
+    }
+
+    .pink-card {
+        height: 26.758vh;
+        width: 75.807vw;
+        transform: translateX(17px);
+        font-size: 10px;
+    }
+
+    .trape {
+        width: 81.583vw;
+        transform: translateX(-46px);
+    }
+
+    .orange-card {
+        height: 30vh;
+        width: 75.807vw;
+        transform: translateX(16px);
+        font-size: 10px;
+    }
+
+    .trap {
+        width: 81vw;
+        transform: translateX(-44px);
+        background-position: center;
+    }
+
+    .parent-gift-card {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+
+    .purple-card {
+        height: 26.758vh;
+        width: 75.807vw;
+        transform: translateX(17px);
+        font-size: 10px;
+    }
+
+    .purple-img {
+        width: 81.583vw;
+        transform: translateX(-46px);
+    }
+
+    .green-card {
+        height: 30vh;
+        width: 75.807vw;
+        transform: translateX(16px);
+        font-size: 10px;
+    }
+
+    .green-img {
+        width: 81vw;
+        transform: translateX(-44px);
+        background-position: center;
+    }
+
+    .white-shop {
+        width: 18.222vw;
+        height: 2.852vh;
+        margin-top: 4%;
+    }
+
+    .separate-gift {
+        padding: 4.5%;
+        margin-left: 16.5%;
+    }
+
+    .nav-content {
+        display: none;
+    }
+
+    .circle-25-div {
+        display: none;
+    }
+
+    /* .parent-under-999{
+        display: none;
+    } */
+
+    .phone-mail {
+        display: none;
+    }
+
+    #search {
+        width: 22.47vw;
+    }
+
+    .shop-search {
+        margin-left: 30%;
+    }
+
+    .shopping-cart {
+        display: none;
+    }
+
+    .shop-btn {
+        width: 27.809vw;
+        height: 4.471vh;
+    }
+
+    .para-sales {
+        font-size: 1.063rem;
+    }
+
+    .para-off {
+        font-size: 1.063rem;
+    }
+
+    .parent-special {
+        font-size: 1.313rem;
+    }
+
+    .para-2020 {
+        margin-left: 15%;
+    }
+
+    .lorem-para {
+        font-size: 0.8rem;
+        word-break: break-all;
+        line-height: 3.5vh;
+    }
+
+    .sale-upto {
+        width: 69%;
+    }
+
+    .shop-btn {
+        width: 27.809vw;
+        height: 4.471vh;
+    }
+
+    .gift-pundit {
+        height: 56vh;
+    }
+
+    .best-selling-card {
+        flex-wrap: wrap;
+    }
+
+    .layer-cards {
+        width: 81.886vw;
+        height: 37.12vh;
+    }
+
+    .love-card {
+        width: 81.487vw;
+    }
+
+    .ring-card {
+        width: 81.886vw;
+        height: 34.12vh;
+    }
+
+    .jar-card {
+        width: 81vw;
+    }
+
+    .best-tilt {
+        display: none;
+    }
+
+    .parent-best-selling,
+    .parent-best-prints {
+        height: max-content;
+    }
+
+    .fa-angle-right:before {
+        display: none;
+    }
+
+    .fa-angle-left:before {
+        display: none;
+    }
+
+    .bike-card {
+        width: 89.487vw;
+    }
+
+    .saree-card {
+        width: 87.4vw;
+        height: 40.57vh;
+    }
+
+    .church-card {
+        width: 87.686vw;
+        height: 42.57vh;
+        margin-top: 10%;
+    }
+
+    .girl-card {
+        width: 86.085vw;
+        height: 40.57vh;
+        margin-top: 10%;
+    }
+
+    .layer-39-img {
+        transform: translateY(-130px);
+        height: 12.2vh;
+    }
+
+    .canvas-div {
+        transform: translateY(-108px);
+        right: 2%;
+    }
+
+    .canvas-para {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .btn-brow {
+        width: 55px;
+        height: 21px;
+        margin-left: 27%;
+        font-size: 10px;
+    }
+
+    .lorem-div-1 {
+        top: 451%;
+        left: 32%;
+    }
+
+    .lorem-div-2 {
+        top: 495%;
+    }
+
+    .lorem-div-3 {
+        top: 541%;
+        right: 28%;
+    }
+
+    .lorem-div-4 {
+        top: 585%;
+        right: 28%;
+    }
+
+    .digital-printing {
+        translate: 38px -106px;
+    }
+
+    .dig-para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .btn-brown {
+        width: 59px;
+        height: 20px;
+        font-size: 10px;
+        margin-left: 21%;
+    }
+
+    .smal-bubble,
+    .small-bubble,
+    .large-bubble,
+    .larg-bubble,
+    .mediu-bubble,
+    .medium-bubble {
+        display: none;
+    }
+
+    .gifts-under,
+    .gift-under {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 8%;
+        height: 12.5vh;
+        margin-left: 0%;
+    }
+
+    .gift-box {
+        width: 21vw;
+        height: 77px;
+        margin-top: 2.5%;
+    }
+
+    .fa-gift:before {
+        /* padding-top: 3%; */
+        padding-left: 26%;
+        font-size: 4rem;
+    }
+
+    .parent-under-999 {
+        flex-wrap: wrap;
+    }
+
+    .circl-25-div {
+        display: none;
+    }
+
+    .parent-why-card {
+        flex-wrap: wrap;
+    }
+
+    .free-exchanges {
+        width: 82%;
+        margin-top: 3%;
+        height: 27vh;
+    }
+
+    .content-part {
+        flex-wrap: wrap;
+    }
+
+    .info,
+    .my-account,
+    .gallery {
+        margin-top: 5%;
+    }
+
+    .last-img {
+        width: 112%;
+    }
+
+    .parent-newsletter {
+        height: 9vh;
+    }
+
+    .child-newsletter {
+        width: 92%;
+    }
+
+    .news-para {
+        font-size: 0.7rem;
+    }
+
+    .we-send {
+        font-size: 0.6rem;
+    }
+
+    #your-email {
+        width: 33vw;
+        height: 3vh;
+        margin-left: 6%;
+    }
+
+    .sub-btn {
+        height: 3vh;
+        width: 19vw;
+        margin-left: 25%;
+        margin-top: 6%;
+    }
+
+    .icon-div {
+        display: none;
+    }
+
+    .gallery {
+        text-align: center;
+    }
+
+    .three-dots {
+        margin-right: 5%;
+        padding-top: 2%;
+    }
+
+    .fa-ellipsis-h:before {
+        font-size: 2rem;
+    }
+
+    .black-parent {
+        display: flex;
+        justify-content: right;
+    }
+
+    .three-dots {
+        display: block;
+    }
+
+    #contact-list {
+        width: 44vw;
+        position: absolute;
+        top: 4%;
+        right: 9%;
+        line-height: 2rem;
+        color: white;
+        background-color: #00aaa0;
+        padding-left: 1.5%;
+        padding-top: 1.5%;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    hr {
+        background-color: #ed6728;
+    }
+
+    .fa-close:before {
+        font-size: 1rem;
+        margin-left: 10%
+    }
+
+    .fa-close {
+        float: right;
+        margin-right: 5%;
+    }
+
+    .toggle-img {
+        width: 8vw;
+        height: 4vh;
+        border-radius: 50%;
+    }
+
+    #div-toggle {
+        display: block;
+        margin-left: 5%;
+        margin-top: 4.5%;
+    }
+
+    #nav-content {
+        display: block;
+        z-index: 2;
+        width: 100%;
+        line-height: 6vh;
+        background-color: #00aaa0;
+        height: max-content;
+        position: absolute;
+        padding-left: 4%;
+    }
+}
+
+}

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./js/script.js"></script>
+    <title>Assesment</title>
+</head>
+
+<body>
+    <!-- header part -->
+    <header>
+        <!-- black part at the top -->
+        <div class="black-parent">
+            <div class="three-dots">
+                <i onclick="topDetails()" class="fa fa-ellipsis-h top-icon"></i>
+            </div>
+            <div id="contact-list">
+                <ul class="contact-list">
+                    <li><i onclick="hideTopDetails()" class="fa fa-close"></i></li>
+                    <li><i class="fa fa-phone"></i> (00)-000 111 222</li><hr>
+                    <li><i class="fa fa-envelope"></i> info@xyz.com</li><hr>
+                    <li><i class="fa fa-credit-card"></i> Gift Voucher</li><hr>
+                    <li><i class="fa fa-user"></i> My Account</li><hr>
+                </ul>
+            </div>
+            <div class="phone-mail">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>(00)-000 111 222</span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>info@xyz.com</span>
+                </div>
+            </div>
+            <div class="phone-mail">
+                <div>
+                    <i class="fa fa-credit-card"></i>
+                    <span>Gift Voucher</span>
+                </div>
+                <div>
+                    <i class="fa fa-user"></i>
+                    <span>My Account</span>
+                </div>
+            </div>
+        </div>
+        <!-- gifts arts part -->
+        <div class="parent-gifts">
+            <div class="gifts-card">
+                <img class="logo-img" src="./images/logo.png">
+                <p class="gift-color">gifts</p>
+                <p class="separate-gift">&</p>
+                <p class="arts-color">arts</p>
+            </div>
+            <div class="shop-search">
+                <div class="search-bar">
+                    <input type="search" id="search" placeholder="Search">
+                    <div class="search-img">
+                        <i class="fa fa-search "></i>
+                    </div>
+                </div>
+                <div class="shopping-cart">
+                    <!-- <i class="fa fa-shopping-cart"></i> -->
+                    <div>
+                        <img src="./images/Layer 8.png">
+                    </div>
+                    <div class="cart-para">
+                        <span>Cart 0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar part -->
+        <nav>
+            <div class="navbar-parent">
+                <div id="div-toggle">
+                    <img onclick="showContent()" class="toggle-img" src="./images/toggle.jpg">
+                </div>
+                <div id="nav-content">
+                    <ul>
+                        <li><i onclick="hideShowContent()" class="fa fa-close"></i></li>
+                        <li>Home</li>
+                        <li>Gifts</li>
+                        <li>Arts</li>
+                        <li>Personalised</li>
+                        <li>Jewellery</li>
+                        <li>Wallpaper</li>
+                    </ul>
+                </div>
+                <div class="nav-content">
+                    <div>
+                        <span>Home</span>
+                    </div>
+                    <div>
+                        <span>Gifts</span>
+                    </div>
+                    <div>
+                        <span>Arts</span>
+                    </div>
+                    <div>
+                        <span>Personalised</span>
+                    </div>
+                    <div>
+                        <span>Jewellery</span>
+                    </div>
+                    <div>
+                        <span>Wallpaper</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- sales upto 50% off -->
+    <section>
+        <div class="parent-sales">
+            <img class="gift-pundit" src="/images/pexels-giftpunditscom-1303082 copy.png">
+            <div class="sale-upto">
+                <span class="para-sales">Sale up to</span>
+                <span class="para-off">50% off</span>
+                <div class="parent-special">
+                    <div>
+                        <p class="special-gift">Special Gifts Trend</p>
+                    </div>
+                    <div>
+                        <p class="para-2020">2020</p>
+                    </div>
+                </div>
+                <div class="lorem-para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                    <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+                    <p>veniam, quis nostrud exercitation ullamco</p>
+                </div>
+                <div>
+                    <button class="shop-btn">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gifts gallery part -->
+    <section>
+        <div class="gift-card">
+            <div class="parent-gifts-card">
+
+                <div class="pink-card">
+                    <h3 class="gift-gallery">Gifts gallery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>adipiscing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna </p>
+                    <p>aliqua. Ut enim ad</p>
+                    <button class="white-shop">Shop Now</button>
+                </div>
+                <div class="trape">
+                    <!-- <img class="pixabay-img" src="./images/pexels-pixabay-51193.png"> -->
+                </div>
+
+            </div>
+            <div class="parent-gift-card">
+                <div class="orange-card">
+                    <h3 class="gift-gallery">Art/Print Gallery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>adipiscing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna </p>
+                    <p>aliqua. Ut enim ad</p>
+                    <button class="white-shop">Shop Now</button>
+                </div>
+                <div class="trap">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="gift-car">
+            <div class="parent-gifts-card">
+                <div class="purple-card">
+                    <h3 class="gift-gallery">Gifts gallery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>adipiscing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna </p>
+                    <p>aliqua. Ut enim ad</p>
+                    <button class="white-shop">Shop Now</button>
+                </div>
+                <div class="purple-img">
+
+                </div>
+            </div>
+            <div class="parent-gift-card">
+                <div class="green-card">
+                    <h3 class="gift-gallery">Art/Print Gallery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>adipiscing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna </p>
+                    <p>aliqua. Ut enim ad</p>
+                    <button class="white-shop">Shop Now</button>
+                </div>
+
+                <div class="green-img">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- best selling gifts -->
+    <section>
+        <div class="parent-best-selling">
+            <div>
+                <h3 class="head-best">Best Selling Gifts</h3>
+            </div>
+            <div class="best-selling-card">
+                <i class="fa fa-angle-left angle"></i>
+                <div class="first-card">
+
+                    <div class="layer-cards"></div>
+                    <!-- <img class="layer-cards" src="./images/Layer 17.svg"> -->
+                    <div>
+                        <p class="lorem-dol">Lorem ipsum dolor</p>
+                        <p class="para-120">$120.00</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="layer-div">
+                    <div class="love-card"></div>
+                    <!-- <img class="layer-card" src="./images/Layer 32.svg"> -->
+                    <div>
+                        <p class="lorem-do">Lorem ipsum dolor</p>
+                        <p class="para-120">$120.00</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="layer-div">
+                    <div class="ring-card"></div>
+                    <!-- <img class="layer-card" src="./images/Layer 33.png"> -->
+                    <div>
+                        <p class="lorem-dol">Lorem ipsum dolor</p>
+                        <p class="para-120">$120.00</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="layer-div">
+                    <div class="jar-card"></div>
+                    <!-- <img class="layer-card" src="./images/Layer 34.svg"> -->
+                    <i class="fa fa-angle-right right-ang"></i>
+                    <div>
+                        <p class="lorem-dol">Lorem ipsum dolor</p>
+                        <p class="para-120">$120.00</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="best-tilt">Best Selling</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- best selling prints -->
+    <section>
+        <div class="parent-best-prints">
+            <div>
+                <h3 class="head-best">Best Selling Prints</h3>
+            </div>
+            <div class="best-selling-card">
+                <i class="fa fa-angle-left left-arr"></i>
+                <div class="parent-sel">
+
+                    <div class="bike-card"></div>
+                    <!-- <img class="layer-cards" src="./images/Layer 40.svg"> -->
+                    <div class="lorem-div-1">
+                        <p class="lorem-doll">Lorem ipsum dolor</p>
+                        <p class="para-120">$120.00</p>
+                        <div>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="layer-div">
+                    <div class="saree-card"></div>
+                    <!-- <img class="layer-card" src="./images/Layer 41.svg"> -->
+                    <div class="lorem-div-2">
+                        <p class="lorem-doll">Lorem ipsum dolor</p>
+                        <p class="para-120">$120.00</p>
+                        <div>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="layer-div">
+                    <div class="church-card"></div>
+                    <!-- <img class="layer-card" src="./images/Layer 42.svg"> -->
+                    <div class="lorem-div-3">
+                        <p class="lorem-doll">Lorem ipsum dolor</p>
+                        <p class="para-120">$120.00</p>
+                        <div>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="layer-div">
+                    <div class="girl-card"></div>
+                    <!-- <img class="layer-card" src="./images/Layer 43.svg"> -->
+                    <i class="fa fa-angle-right right-arr"></i>
+                    <div class="lorem-div-4">
+                        <p class="lorem-doll">Lorem ipsum dolor</p>
+                        <p class="para-120">$120.00</p>
+                        <div>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gifts under 999 part -->
+    <section>
+        <div class="parent-under-999">
+            <div class="small-bubble"></div>
+            <div class="medium-bubble"></div>
+            <div class="large-bubble"></div>
+            <div class="gifts-under">
+                <div class="padding-gift">
+                    <span class="gift-span">Gifts</span>
+                    <span class="span-under"> under 999</span>
+                </div>
+                <div class="gift-box">
+                    <i class="fa fa-gift"></i>
+                </div>
+            </div>
+            <div class="smal-bubble"></div>
+            <div class="mediu-bubble"></div>
+            <div class="larg-bubble"></div>
+            <div class="gift-under">
+                <div class="padding-gift">
+                    <span class="gift-span">Prints</span>
+                    <span class="span-under"> under 999</span>
+                </div>
+                <div class="gift-box">
+                    <i class="fa fa-gift"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- digital printing part -->
+    <section>
+        <div class="parent-digital">
+            <img class="digital-img" src="./images/Layer 38.png">
+            <div class="layer-39-div">
+                <img class="layer-39-img" src="./images/Layer 39.png">
+            </div>
+            <div class="circle-25-div">
+                <p class="para-25">25%</p>
+                <p class="para-of">off</p>
+            </div>
+            <div class="digital-printing">
+                <p class="dig-para">Digital Printing</p>
+                <button class="btn-brown">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- canvas art painting part -->
+    <section>
+        <div>
+            <img class="canvas-img" src="./images/Layer 20.png">
+            <div class="canvas-div">
+                <p class="canvas-para">Canvas Art Paintings</p>
+                <button class="btn-brow">Shop Now</button>
+            </div>
+            <div class="circl-25-div">
+                <p class="para-25">25%</p>
+                <p class="para-of">off</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- why shop with us -->
+    <section>
+        <div class="header-why">
+            <h3>Why shop with us!</h3>
+        </div>
+        <div class="parent-why-card">
+            <div class="free-exchanges">
+                <i class="fa fa-refresh"></i>
+                <p class="para-free">FREE EXCHANGES</p>
+                <p class="para-if">If something isn't your cup of tea then</p>
+                <p class="para-if">you can simply swap it for another</p>
+                <p class="para-if">experience</p>
+            </div>
+            <div class="free-exchanges">
+                <i class="fa fa-refresh"></i>
+                <p class="para-free">60 DAY REFUND POLICY</p>
+                <p class="para-if">Plenty of time to change your time</p>
+            </div>
+            <div class="free-exchanges">
+                <i id="logo-env" class="fa fa-envelope"></i>
+                <p class="para-free">EVOUCHERS TO YOUR INBOX</p>
+                <p class="para-if">Sent straight to youur inbox within 2</p>
+                <p class="para-if">hours!</p>
+            </div>
+            <div class="free-exchanges">
+                <i id="icon-env" class="fa fa-envelope"></i>
+                <p class="para-free">EVOUCHERS TO YOUR INBOX</p>
+                <p class="para-if">Sent straight to youur inbox within 2</p>
+                <p class="para-if">hours!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter part -->
+    <section>
+        <div class="parent-newsletter">
+            <div class="child-newsletter">
+                <div>
+                    <p class="news-para">NEWSLETTER</p>
+                    <p class="we-send">We Send The Good Things</p>
+                </div>
+                <div>
+                    <input type="email" id="your-email" placeholder="Your email address">
+                    <button class="sub-btn">SUBSCRIBE</button>
+                </div>
+                <div>
+                    <p class="news-para">SOCIAL CONNECT</p>
+                    <p class="we-send">Lore ipsum dolor sit amet</p>
+                </div>
+                <div class="icon-div">
+                    <i class="fa fa-facebook fac-icon"></i>
+                    <i class="fa fa-google-plus gplus-icon"></i>
+                    <i class="fa fa-twitter twit-icon"></i>
+                    <i class="fa fa-wifi"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer part -->
+    <footer>
+        <div class="parent-footer">
+            <div class="content-part">
+            <div class="contact-us">
+                <p id="bold-words">Contact Us</p>
+                <p>60, 29th Street, San Francisco, CA 94110, USA</p>
+                <p>Phone : (+00) 123-456-789</p>
+                <p>E-mail : Support@Yourshop.in</p>
+                <div class="social-icon">
+                    <p id="bold-fol" >Follower</p>
+                    <i class="fa fa-facebook fb-icon"></i>
+                    <i class="fa fa-twitter twitter-icon"></i>
+                    <i class="fa fa-youtube youtube-icon"></i>
+                    <i class="fa fa-google-plus plus-icon"></i>
+                    <i class="fa fa-instagram insta-icon"></i>
+                </div>
+            </div>
+            <div class="info">
+                <p id="bold-word">Information</p>
+                <p>Home</p>
+                <p>Gifts</p>
+                <p>Arts</p>
+                <p>Personalised</p>
+                <p>Jewellery</p>
+                <p>Features</p>
+                <p>Wallpaper</p>
+            </div>
+            <div class="my-account">
+                <p id="bold-wrds">My Account</p>
+                <p>Gift Voucher</p>
+            </div>
+            <div class="gallery">
+                <p id="bld-words">Gallery</p>
+                <img class="last-img" src="./images/Layer 56.png">
+            </div>
+        </div>
+        <div class="last-part">
+            <div>
+                <p>Copyright @ 2020</p>
+            </div>
+            <div>
+                <img src="./images/logo.png">
+                <span>gifts</span>
+                <span>&</span>
+                <span>arts</span>
+            </div>
+            <div>
+                <i class="fa fa-cc-amex"></i>
+                <i class="fa fa-cc-discover"></i>
+                <i class="fa fa-cc-mastercard"></i>
+                <i class="fa fa-cc-paypal"></i>
+                <i class="fa fa-cc-visa"></i>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
