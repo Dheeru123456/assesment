@@ -436,8 +436,8 @@ p {
 
 /************ best selling gifts ****************/
 .parent-best-selling {
-    /* width: 1601px; */
-    height: 89.379vh;
+   
+    height: 81.379vh;
     background-color: #f2f3f3;
     font-family: "Poppins", sans-serif;
     /* display: flex; */
@@ -445,66 +445,66 @@ p {
     margin-top: 5%;
 }
 
-.best-selling-card {
+/* .best-selling-card {
     display: flex;
-    /* justify-content: space-evenly; */
-    /* width:1413px; */
+    justify-content: space-evenly;
+    width:1413px;
     margin-top: 3%;
     margin-left: 7%;
-}
+} */
 
-.layer-cards {
+/* .layer-cards {
     width: 17.886vw;
     height: 37.12vh;
     background-image: url(../images/Layer\ 17.svg);
-    /* position: relative; */
+    position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
-.ring-card {
+/* .ring-card {
     width: 19.55vw;
     height: 36.82vh;
     background-image: url(../images/Layer\ 33.svg);
-    /* position: relative; */
+    position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
-.love-card {
+/* .love-card {
     width: 19.487vw;
     height: 40.960vh;
     background-image: url(../images/Layer\ 32.svg);
-    /* position: relative; */
+    position: relative;
     background-size: contain;
     clip-path: inset(0% 0% 10% 0%);
     background-repeat: no-repeat;
-}
+} */
 
-.jar-card {
+/* .jar-card {
     width: 17.81vw;
     height: 36.60vh;
     background-image: url(../images/Layer\ 34.svg);
-    /* position: relative; */
+    position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 
-.layer-div {
+/* .layer-div {
     margin-left: 2%;
 }
 
 .first-card {
     margin-left: 2.5%;
-}
+} */
 
-.first-card:hover {
+/* .first-card:hover {
     box-shadow: 2px 2px 8px gray;
     transform: scale(1.3);
     transition-duration: 2s;
     z-index: 1;
-}
+} */
 
 .layer-div:hover {
     box-shadow: 2px 2px 8px gray;
@@ -528,12 +528,12 @@ p {
 }
 
 .best-tilt {
-    font-size: 5.625rem;
+    font-size: 4.4rem;
     color: #e8e8e8;
     font-weight: 800;
     transform: rotateZ(-91deg);
     position: absolute;
-    right: -16%;
+    right: -13%;
     top: 289%;
 }
 
@@ -551,7 +551,7 @@ p {
 .right-ang {
     position: absolute;
     top: 295%;
-    right: 6%;
+    right: 4%;
 }
 
 .angle {
@@ -570,7 +570,7 @@ p {
     line-height: 2rem;
     color: #121212;
     font-weight: 500;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 .lorem-doll {
@@ -578,7 +578,8 @@ p {
     line-height: 2rem;
     color: #121212;
     font-weight: 500;
-    margin-top: 44%;
+    font-family: "Poppins", sans-serif;
+    /* margin-top: 44%; */
 }
 
 .para-120 {
@@ -591,30 +592,52 @@ p {
 /************** best selling prints ****************/
 
 .parent-best-prints {
-    /* width: 1601px; */
-    height: 89.379vh;
     /* background-color: #f2f3f3; */
-    font-family: "Poppins", sans-serif;
-    /* display: flex; */
     text-align: center;
-    /* margin-top: 5%; */
+    margin-top: 5%;
 }
 
-.parent-sel {
+/* .parent-sel {
     margin-left: 4%;
+} */
+
+.best-selling-card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-left: 5%;
+    margin-top: 4%;
 }
 
-.bike-card {
+.layer-cards{
+    width: 74%;
+}
+
+.img-div{
+    width: 100%;
+}
+
+.img-divs{
+    width: 74%;
+    margin-right: 24% ;
+}
+
+.layer-card{
+    width: 74%;
+    margin-left: 6%;
+}
+
+/* .bike-card {
     width: 19.487vw;
     height: 40.973vh;
     background-image: url(../images/Layer\ 40.svg);
-    /* position: relative; */
+    position: relative;
     background-size: contain;
     clip-path: inset(0% 0% 29% 0%);
     background-repeat: no-repeat;
-}
+} */
 
-.bike-card:hover {
+.layer-card:hover {
     box-shadow: 2px 2px 8px gray;
     transform: scale(1.3);
     transition-duration: 2s;
@@ -623,73 +646,70 @@ p {
 
 
 
-.saree-card {
+/* .saree-card {
     width: 17.686vw;
     height: 36.57vh;
     background-image: url(../images/Layer\ 41.svg);
-    /* position: relative; */
+    position: relative;
     background-size: contain;
     clip-path: inset(0% 0% 21% 0%);
     background-repeat: no-repeat;
-}
+} */
 
-.church-card {
+/* .church-card {
     width: 17.686vw;
     height: 36.57vh;
     background-image: url(../images/Layer\ 42.svg);
-    /* position: relative; */
+    position: relative;
     background-size: contain;
     clip-path: inset(0% 0% 21% 0%);
     background-repeat: no-repeat;
-}
+} */
 
-.girl-card {
+/* .girl-card {
     width: 17.085vw;
     height: 36.57vh;
     background-image: url(../images/Layer\ 43.svg);
-    /* position: relative; */
+    position: relative;
     background-size: contain;
     clip-path: inset(0% 0% 21% 0%);
     background-repeat: no-repeat;
-}
+} */
 
-.lorem-div-4 {
-    position: absolute;
-    translate: 29% -64%;
+/* .lorem-div-4 {
+    translate: 2% -154%;
 }
 
 .lorem-div-3 {
-    position: absolute;
-    translate: 29% -64%;
+    translate: 2% -154%;
 }
 
 .lorem-div-2 {
-    position: absolute;
-    translate: 29% -64%;
+    translate: 3% -154%;
 }
 
 .lorem-div-1 {
-    position: absolute;
-    translate: 34% -83%;
-}
+    translate: -1% -199%;
+} */
 
 .left-arr {
     position: absolute;
-    top: 381%;
+    top: 389%;
     left: 6%;
     color: #00aaa0;
 }
 
 .right-arr {
     position: absolute;
-    top: 381%;
-    right: 6.5%;
+    top: 389%;
+    right: 3%;
 }
 
 /*********** gifts under 999 part **************/
 .parent-under-999 {
     display: flex;
     /* justify-content: space-evenly; */
+    margin-top: 6%;
 }
 
 .gifts-under {
@@ -1236,6 +1256,14 @@ p {
         margin-top: 8%;
     }
 
+    .layer-card{
+        margin-left: 0%;
+    }
+
+    .img-divs{
+        margin-right: 0%;
+    }
+
     .pink-lorem {
         padding-bottom: 6%;
         width: 85%;
@@ -1399,13 +1427,13 @@ p {
         /* margin-left: 10%; */
     }
 
-    .layer-cards {
+    /* .layer-cards {
         width: 90.886vw;
         height: 37.12vh;
 
-    }
+    } */
 
-    .love-card {
+    /* .love-card {
         width: 94.487vw;
     }
 
@@ -1416,7 +1444,7 @@ p {
 
     .jar-card {
         width: 88vw;
-    }
+    } */
 
     .best-tilt {
         display: none;
@@ -1458,14 +1486,14 @@ p {
 
     .layer-div {
         margin-left: 0%;
-        margin-top: 4%;
+        /* margin-top: 4%; */
     }
 
-    .girl-card {
+    /* .girl-card {
         width: 81.085vw;
         height: 40.57vh;
         margin-top: 14%;
-    }
+    } */
 
     .layer-39-img {
         transform: translateY(-130px);
@@ -1489,7 +1517,7 @@ p {
         font-size: 10px;
     }
 
-    .lorem-div-1 {
+    /* .lorem-div-1 {
         translate: 51% -98%;
     }
 
@@ -1503,7 +1531,7 @@ p {
 
     .lorem-div-4 {
         translate: 58% -86%;
-    }
+    } */
 
     .digital-printing {
         translate: 38px -106px;
@@ -1530,17 +1558,17 @@ p {
         display: none;
     }
 
-    .mar-para {
+    /* .mar-para {
         translate: 0% -56%;
     }
 
     .mar-par {
         translate: 0% -120%;
-    }
+    } */
 
-    .lorem-dol {
+    /* .lorem-dol {
         margin-top: 0%;
-    }
+    } */
 
     .gifts-under,
     .gift-under {
@@ -1724,7 +1752,7 @@ p {
 
 @media(min-width:350px) and (max-width: 375px) {
 
-    .layer-cards {
+    /* .layer-cards {
         width: 75.886vw;
     }
 
@@ -1746,28 +1774,37 @@ p {
 
     .mar-para {
         translate: -2% -56%;
-    }
+    } */
 
-    .jar-card {
+    /* .jar-card {
         width: 74vw;
-    }
+    } */
 
-    .lorem-div-1 {
-        translate: 31% -81%;
-    }
+    /* .lorem-div-1 {
+        translate: -5% -194%;
+    } */
 
-    .bike-card {
+    /* .bike-card {
         width: 73.487vw;
     }
+       
+    .parent-sel{
+        height: 41vh;
+    }
 
-    .lorem-div-2 {
-        translate: 43% -72%;
+    .layer-div{
+        height: 46vh;
+    } */
+
+
+    /* .lorem-div-2 {
+        translate: -5% -198%;
     }
 
     .lorem-div-3,
     .lorem-div-4 {
-        translate: 46% -76%;
-    }
+        translate: -5% -201%;
+    } */
 
     .gifts-under {
         margin-top: 13%;
@@ -1797,7 +1834,7 @@ p {
 }
 
 @media(min-width:390px) and (max-width: 460px) {
-    .for-iphone{
+    /* .for-iphone{
         margin-right: 4%;
     }
 
@@ -1823,9 +1860,9 @@ p {
 
     .girl-card {
         width: 87.085vw;
-    }
+    } */
 
-    .lorem-div-4 {
+    /* .lorem-div-4 {
         translate: 64% -86%;
-    }
+    } */
 }
