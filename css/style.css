@@ -264,6 +264,8 @@ p {
     animation-iteration-count: 1;
     animation-duration: 2s;
     cursor: pointer;
+    background-color: black;
+    color: #e8e8e8;
 }
 
 .white-shop:hover {
@@ -271,6 +273,8 @@ p {
     animation-iteration-count: 1;
     animation-duration: 2s;
     cursor: pointer;
+    background-color: black;
+    color: #e8e8e8;
 }
 
 
@@ -751,6 +755,7 @@ p {
 /************ digital printing part *************/
 .parent-digital {
     margin-top: 5%;
+    position: relative;
 }
 
 .digital-img {
@@ -835,6 +840,10 @@ p {
 /************* canvas art painting part ***************/
 .canvas-img {
     width: 100%;
+}
+
+.par-rel{
+    position: relative;
 }
 
 .canvas-div {
@@ -1655,12 +1664,31 @@ p {
     .news-para {
         font-size: 0.6rem;
     }
+
+    /* .separate-gift{
+        margin-left: 17%;
+    } */
 }
 
 @media(min-width:390px) and (max-width: 460px) {
 
     .layer-div {
         margin-top: 4%;
+    }
+
+    /* .separate-gift{
+        margin-left: 15.5%;
+    } */
+}
+
+@media(min-width:360px) and (max-width: 365px){
+    .layer-39-img {
+        transform: translateY(-119px);
+        height: 12.5vh;
+    }
+
+    .digital-printing {
+        translate: 38px -101px;
     }
 }
 
@@ -1820,4 +1848,90 @@ p {
     .toggle-img {
         height: 5vh;
     }
+}
+
+@media(min-width:910px) and (max-width: 912px){
+    .search-img{
+        margin-left: 6.5%;
+    }
+
+    .separate-gift {
+        padding: 2.5%;
+        margin-left: 6.5%;
+    }
+
+    .trape {
+        transform: translateX(-71px);
+    }
+
+    .trap {
+        transform: translateX(-134px);
+    }
+
+    .purple-img {
+        transform: translateX(-194px);
+    }
+
+    .green-img {
+        transform: translateX(-133px);
+    }
+
+    .fa-gift:before {
+        font-size: 5rem;
+    }
+
+    .gift-box {
+        width: 12vw;
+        height: 110px;
+    }
+
+    .dig-para {
+        font-size: 27px;
+        line-height: 34px;
+    }
+
+    .digital-printing {
+        translate: 83px -225px;
+    }
+
+    .btn-brown {
+        width: 96px;
+        height: 34px;
+        font-size: 17px;
+    }
+
+    .layer-39-img {
+        transform: translateY(-293px);
+        height: 17.2vh;
+    }
+
+    .btn-brow {
+        width: 63px;
+        height: 28px;
+        font-size: 12px;
+    }
+
+    .canvas-para {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .canvas-div {
+        transform: translateY(-217px);
+        right: 9%;
+    }
+
+    .fa-refresh{
+        padding-top: 2.8%;
+    }
+
+    .free-exchanges {
+        width: 51%;
+        height: 17vh;
+    }
+
+    .sub-btn {
+        margin-top: 3%;
+    }
+    
 }
