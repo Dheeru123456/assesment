@@ -28,6 +28,7 @@ body {
 .hver-phone:hover {
     border-bottom: 4px solid lavenderblush;
     height: 5vh;
+    cursor: pointer;
 }
 
 #contact-list {
@@ -155,11 +156,6 @@ p {
     justify-content: space-around;
 }
 
-/* .cart-para{
-    padding-left: 1%;
-    word-spacing: 5px;
-} */
-
 /********** navbar part ***********/
 .navbar-parent {
     display: flex;
@@ -176,6 +172,13 @@ p {
 #nav-content {
     display: none;
 }
+
+.content-hov:hover{
+    border-bottom: 5px solid white;
+    height: 7vh;
+    cursor: pointer;
+}
+
 
 #div-toggle {
     display: none;
@@ -260,12 +263,14 @@ p {
     animation-name: book;
     animation-iteration-count: 1;
     animation-duration: 2s;
+    cursor: pointer;
 }
 
 .white-shop:hover {
     animation-name: book;
     animation-iteration-count: 1;
     animation-duration: 2s;
+    cursor: pointer;
 }
 
 
@@ -436,7 +441,7 @@ p {
 
 /************ best selling gifts ****************/
 .parent-best-selling {
-   
+
     height: 81.379vh;
     background-color: #f2f3f3;
     font-family: "Poppins", sans-serif;
@@ -445,78 +450,14 @@ p {
     margin-top: 5%;
 }
 
-/* .best-selling-card {
-    display: flex;
-    justify-content: space-evenly;
-    width:1413px;
-    margin-top: 3%;
-    margin-left: 7%;
-} */
-
-/* .layer-cards {
-    width: 17.886vw;
-    height: 37.12vh;
-    background-image: url(../images/Layer\ 17.svg);
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-
-/* .ring-card {
-    width: 19.55vw;
-    height: 36.82vh;
-    background-image: url(../images/Layer\ 33.svg);
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-
-/* .love-card {
-    width: 19.487vw;
-    height: 40.960vh;
-    background-image: url(../images/Layer\ 32.svg);
-    position: relative;
-    background-size: contain;
-    clip-path: inset(0% 0% 10% 0%);
-    background-repeat: no-repeat;
-} */
-
-/* .jar-card {
-    width: 17.81vw;
-    height: 36.60vh;
-    background-image: url(../images/Layer\ 34.svg);
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-
-
-/* .layer-div {
-    margin-left: 2%;
-}
-
-.first-card {
-    margin-left: 2.5%;
-} */
-
-/* .first-card:hover {
-    box-shadow: 2px 2px 8px gray;
-    transform: scale(1.3);
-    transition-duration: 2s;
-    z-index: 1;
-} */
-
 .layer-div:hover {
     box-shadow: 2px 2px 8px gray;
     transform: scale(1.3);
     transition-duration: 2s;
     z-index: 1;
+    clip-path: inset(0% 10% 0% 10%);
 }
 
-/* .layer-card {
-    width: 20.508vw;
-    height: 39.339vh;
-} */
 
 .head-best {
     font-size: 2.5rem;
@@ -597,100 +538,48 @@ p {
     margin-top: 5%;
 }
 
-/* .parent-sel {
-    margin-left: 4%;
-} */
-
-.best-selling-card{
-    display:flex;
+.best-selling-card {
+    display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     padding-left: 5%;
     margin-top: 4%;
 }
 
-.layer-cards{
+.layer-cards {
     width: 74%;
 }
 
-.img-div{
+.img-div {
     width: 100%;
 }
 
-.img-divs{
+.img-divs {
     width: 74%;
-    margin-right: 24% ;
+    margin-right: 24%;
 }
 
-.layer-card{
+.layer-card {
     width: 74%;
     margin-left: 6%;
 }
 
-/* .bike-card {
-    width: 19.487vw;
-    height: 40.973vh;
-    background-image: url(../images/Layer\ 40.svg);
-    position: relative;
-    background-size: contain;
-    clip-path: inset(0% 0% 29% 0%);
-    background-repeat: no-repeat;
-} */
-
-.layer-card:hover {
+.parent-sel:hover {
     box-shadow: 2px 2px 8px gray;
     transform: scale(1.3);
     transition-duration: 2s;
     z-index: 4;
+    clip-path: inset(0% 10% 0% 10%);
 }
 
-
-
-/* .saree-card {
-    width: 17.686vw;
-    height: 36.57vh;
-    background-image: url(../images/Layer\ 41.svg);
-    position: relative;
-    background-size: contain;
-    clip-path: inset(0% 0% 21% 0%);
-    background-repeat: no-repeat;
-} */
-
-/* .church-card {
-    width: 17.686vw;
-    height: 36.57vh;
-    background-image: url(../images/Layer\ 42.svg);
-    position: relative;
-    background-size: contain;
-    clip-path: inset(0% 0% 21% 0%);
-    background-repeat: no-repeat;
-} */
-
-/* .girl-card {
-    width: 17.085vw;
-    height: 36.57vh;
-    background-image: url(../images/Layer\ 43.svg);
-    position: relative;
-    background-size: contain;
-    clip-path: inset(0% 0% 21% 0%);
-    background-repeat: no-repeat;
-} */
-
-/* .lorem-div-4 {
-    translate: 2% -154%;
+.first-card:hover {
+    box-shadow: 2px 2px 8px gray;
+    transform: scale(1.3);
+    transition-duration: 2s;
+    z-index: 4;
+    clip-path: inset(0% 10% 0% 10%);
 }
 
-.lorem-div-3 {
-    translate: 2% -154%;
-}
-
-.lorem-div-2 {
-    translate: 3% -154%;
-}
-
-.lorem-div-1 {
-    translate: -1% -199%;
-} */
 
 .left-arr {
     position: absolute;
@@ -745,15 +634,9 @@ p {
 }
 
 .gift-box:hover {
-    border-radius: 5opx;
+    border-radius: 50px;
     transform: scale(1.5);
     transition-duration: 2s;
-}
-
-.layer-39-img:hover {
-    clip-path: inset(0% 15% 0% 15%);
-    transform: scale(1.5);
-    transition-duration: 3s;
 }
 
 .circle-25-div:hover {
@@ -942,6 +825,13 @@ p {
     margin-left: 5%;
 }
 
+.btn-brown:hover{
+    animation-name: book;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    cursor: pointer;
+}
+
 /************* canvas art painting part ***************/
 .canvas-img {
     width: 100%;
@@ -975,6 +865,13 @@ p {
     margin-left: 40%;
 }
 
+.btn-brow:hover{
+    animation-name: book;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    cursor: pointer;
+}
+
 .circl-25-div {
     position: absolute;
     width: 150px;
@@ -983,6 +880,12 @@ p {
     background-color: #e7cba9;
     padding-top: 2%;
     translate: 393% -330%;
+}
+
+.circl-25-div:hover{
+    animation-name: book;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
 }
 
 /************* why shop with us ******************/
@@ -1037,10 +940,6 @@ p {
     font-size: 2rem;
 }
 
-/* .fa-envelope:before {
-    font-size: 2rem;
-} */
-
 .para-free {
     font-size: 19px;
     /* line-height: 17px; */
@@ -1089,6 +988,13 @@ p {
     color: #e8e8e8;
     border: none;
     font-family: "Poppins", sans-serif;
+}
+
+.sub-btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
 }
 
 .news-para {
@@ -1256,11 +1162,25 @@ p {
         margin-top: 8%;
     }
 
-    .layer-card{
+    .layer-div:hover {
+        box-shadow: 2px 2px 8px gray;
+        transform: scale(1);
+        transition-duration: 2s;
+        z-index: 1;
+        clip-path: inset(0% 10% 0% 10%);
+    }
+
+    .gift-box:hover {
+        /* border-radius: 5opx; */
+        transform: scale(1);
+        transition-duration: 2s;
+    }
+
+    .layer-card {
         margin-left: 0%;
     }
 
-    .img-divs{
+    .img-divs {
         margin-right: 0%;
     }
 
@@ -1360,10 +1280,6 @@ p {
         display: none;
     }
 
-    /* .parent-under-999{
-        display: none;
-    } */
-
     .phone-mail {
         display: none;
     }
@@ -1427,25 +1343,6 @@ p {
         /* margin-left: 10%; */
     }
 
-    /* .layer-cards {
-        width: 90.886vw;
-        height: 37.12vh;
-
-    } */
-
-    /* .love-card {
-        width: 94.487vw;
-    }
-
-    .ring-card {
-        width: 89.886vw;
-        height: 34.12vh;
-    }
-
-    .jar-card {
-        width: 88vw;
-    } */
-
     .best-tilt {
         display: none;
     }
@@ -1486,17 +1383,15 @@ p {
 
     .layer-div {
         margin-left: 0%;
-        /* margin-top: 4%; */
+        margin-top: 4%;
     }
 
-    /* .girl-card {
-        width: 81.085vw;
-        height: 40.57vh;
-        margin-top: 14%;
-    } */
+    .first-card,.parent-sel {
+        margin-top: 4.5%;
+    }
 
     .layer-39-img {
-        transform: translateY(-130px);
+        transform: translateY(-136px);
         height: 12.2vh;
     }
 
@@ -1516,22 +1411,6 @@ p {
         margin-left: 27%;
         font-size: 10px;
     }
-
-    /* .lorem-div-1 {
-        translate: 51% -98%;
-    }
-
-    .lorem-div-2 {
-        translate: 58% -86%;
-    }
-
-    .lorem-div-3 {
-        translate: 58% -86%;
-    }
-
-    .lorem-div-4 {
-        translate: 58% -86%;
-    } */
 
     .digital-printing {
         translate: 38px -106px;
@@ -1557,18 +1436,6 @@ p {
     .medium-bubble {
         display: none;
     }
-
-    /* .mar-para {
-        translate: 0% -56%;
-    }
-
-    .mar-par {
-        translate: 0% -120%;
-    } */
-
-    /* .lorem-dol {
-        margin-top: 0%;
-    } */
 
     .gifts-under,
     .gift-under {
@@ -1619,10 +1486,6 @@ p {
     .gallery {
         margin-top: 5%;
     }
-
-    /* .last-img {
-        width: 112%;
-    } */
 
     .last-part {
         justify-content: space-evenly;
@@ -1750,61 +1613,18 @@ p {
     }
 }
 
+@media(min-width:376px) and (max-width: 395px) {
+    .layer-39-img {
+        transform: translateY(-130px);
+    }
+
+    .layer-div {
+        margin-top: 4%;
+    }
+
+}
+
 @media(min-width:350px) and (max-width: 375px) {
-
-    /* .layer-cards {
-        width: 75.886vw;
-    }
-
-    .for-iphone {
-        margin-right: 12%;
-    }
-
-    .love-card {
-        width: 80.487vw;
-    }
-
-    .ring-card {
-        width: 74.886vw;
-    }
-
-    .mar-par {
-        translate: -2% -120%;
-    }
-
-    .mar-para {
-        translate: -2% -56%;
-    } */
-
-    /* .jar-card {
-        width: 74vw;
-    } */
-
-    /* .lorem-div-1 {
-        translate: -5% -194%;
-    } */
-
-    /* .bike-card {
-        width: 73.487vw;
-    }
-       
-    .parent-sel{
-        height: 41vh;
-    }
-
-    .layer-div{
-        height: 46vh;
-    } */
-
-
-    /* .lorem-div-2 {
-        translate: -5% -198%;
-    }
-
-    .lorem-div-3,
-    .lorem-div-4 {
-        translate: -5% -201%;
-    } */
 
     .gifts-under {
         margin-top: 13%;
@@ -1813,6 +1633,10 @@ p {
     .gift-box {
         height: 74px;
         margin-top: 0.5%;
+    }
+
+    .layer-div {
+        margin-top: 4%;
     }
 
     .layer-39-img {
@@ -1834,35 +1658,166 @@ p {
 }
 
 @media(min-width:390px) and (max-width: 460px) {
-    /* .for-iphone{
-        margin-right: 4%;
+
+    .layer-div {
+        margin-top: 4%;
+    }
+}
+
+@media(min-width:462px) and (max-width: 600px) {
+    .separate-gift {
+        padding: 3.5%;
+        margin-left: 11.5%;
     }
 
-    .bike-card {
-        width: 81.487vw;
+
+    .search-img {
+        margin-left: -5.5%;
     }
 
-    .saree-card {
-        width: 87.4vw;
+    #div-toggle {
+        margin-top: 2.5%;
     }
 
-    .lorem-div-2 {
-        translate: 60% -86%;
+    .toggle-img {
+        height: 5vh;
     }
 
-    .church-card {
-        width: 87.686vw;
+    .gift-box {
+        width: 16vw;
+        margin-top: 0.5%;
     }
 
-    .lorem-div-3 {
-        translate: 70% -86%;
+    .layer-39-img {
+        transform: translateY(-175px);
+        height: 19.2vh;
     }
 
-    .girl-card {
-        width: 87.085vw;
-    } */
+    .digital-printing {
+        translate: 38px -135px;
+    }
 
-    /* .lorem-div-4 {
-        translate: 64% -86%;
-    } */
+    .canvas-div {
+        transform: translateY(-135px);
+        right: 2%;
+    }
+
+    .sub-btn {
+        height: 3.3vh;
+        width: 16vw;
+        margin-top: 2%;
+    }
+}
+
+@media(min-width:766px) and (max-width: 850px) {
+    .btn-brown {
+        width: 97px;
+        height: 33px;
+        font-size: 15px;
+    }
+
+    .digital-printing {
+        translate: 77px -203px;
+    }
+
+    .dig-para {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .layer-39-img {
+        transform: translateY(-265px);
+        height: 18.2vh;
+    }
+
+    .canvas-div {
+        transform: translateY(-207px);
+        right: 4%;
+    }
+
+    .canvas-para {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .btn-brow {
+        width: 103px;
+        height: 31px;
+        font-size: 16px;
+    }
+
+
+
+    .gift-box {
+        width: 13vw;
+        height: 100px;
+    }
+
+    .fa-gift:before {
+        font-size: 5rem;
+    }
+
+    .para-free {
+        font-size: 26px;
+    }
+
+    .para-if {
+        font-size: 18px;
+    }
+
+    .free-exchanges {
+        width: 62%;
+        height: 22vh;
+    }
+
+    .we-send {
+        font-size: 0.8rem;
+    }
+
+    .news-para {
+        font-size: 1.1rem;
+    }
+
+    .sub-btn {
+        width: 14vw;
+        margin-left: 27%;
+        margin-top: 2%;
+    }
+
+    .search-img {
+        margin-left: 6.5%;
+    }
+
+    .separate-gift {
+        padding: 2.5%;
+        margin-left: 7.5%;
+    }
+
+    .trape {
+        transform: translateX(-59px);
+    }
+
+    .trap,
+    .green-img {
+        transform: translateX(-102px)
+    }
+
+    .purple-img {
+        transform: translateX(-148px);
+    }
+}
+
+@media(min-width:766px) and (max-width: 800px){
+    .layer-39-img {
+        transform: translateY(-250px);
+        height: 20vh;
+    }
+
+    #div-toggle {
+        margin-top: 2.5%;
+    }
+
+    .toggle-img {
+        height: 5vh;
+    }
 }
