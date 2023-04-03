@@ -157,6 +157,11 @@ p {
     justify-content: space-around;
 }
 
+.shopping-cart:hover{
+    background-color: #7f4895;
+    cursor: pointer;
+}
+
 /********** navbar part ***********/
 .navbar-parent {
     display: flex;
@@ -174,7 +179,7 @@ p {
     display: none;
 }
 
-.content-hov:hover{
+.content-hov:hover {
     border-bottom: 5px solid white;
     height: 7vh;
     cursor: pointer;
@@ -831,7 +836,7 @@ p {
     margin-left: 5%;
 }
 
-.btn-brown:hover{
+.btn-brown:hover {
     animation-name: book;
     animation-iteration-count: 1;
     animation-duration: 3s;
@@ -843,7 +848,7 @@ p {
     width: 100%;
 }
 
-.par-rel{
+.par-rel {
     position: relative;
 }
 
@@ -875,7 +880,7 @@ p {
     margin-left: 40%;
 }
 
-.btn-brow:hover{
+.btn-brow:hover {
     animation-name: book;
     animation-iteration-count: 1;
     animation-duration: 3s;
@@ -892,7 +897,7 @@ p {
     translate: 393% -330%;
 }
 
-.circl-25-div:hover{
+.circl-25-div:hover {
     animation-name: book;
     animation-iteration-count: 1;
     animation-duration: 3s;
@@ -1000,7 +1005,7 @@ p {
     font-family: "Poppins", sans-serif;
 }
 
-.sub-btn:hover{
+.sub-btn:hover {
     background-color: white;
     color: black;
     font-weight: 900;
@@ -1396,7 +1401,8 @@ p {
         margin-top: 4%;
     }
 
-    .first-card,.parent-sel {
+    .first-card,
+    .parent-sel {
         margin-top: 4.5%;
     }
 
@@ -1682,7 +1688,7 @@ p {
     } */
 }
 
-@media(min-width:360px) and (max-width: 365px){
+@media(min-width:360px) and (max-width: 365px) {
     .layer-39-img {
         transform: translateY(-119px);
         height: 12.5vh;
@@ -1836,7 +1842,7 @@ p {
     }
 }
 
-@media(min-width:766px) and (max-width: 800px){
+@media(min-width:766px) and (max-width: 800px) {
     .layer-39-img {
         transform: translateY(-250px);
         height: 20vh;
@@ -1851,8 +1857,8 @@ p {
     }
 }
 
-@media(min-width:910px) and (max-width: 912px){
-    .search-img{
+@media(min-width:910px) and (max-width: 912px) {
+    .search-img {
         margin-left: 6.5%;
     }
 
@@ -1922,7 +1928,7 @@ p {
         right: 9%;
     }
 
-    .fa-refresh{
+    .fa-refresh {
         padding-top: 2.8%;
     }
 
@@ -1934,5 +1940,5 @@ p {
     .sub-btn {
         margin-top: 3%;
     }
-    
+
 }
