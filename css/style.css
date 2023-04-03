@@ -79,9 +79,10 @@ body {
 .separate-gift {
     color: #292929;
     font-size: 1.688rem;
-    padding: 1.5%;
-    position: absolute;
-    margin-left: 4.5%;
+    /* padding: 1.5%;
+    position: absolute; */
+    /* margin-left: 4.5%; */
+    margin-top: 12%;
 }
 
 p {
@@ -89,7 +90,7 @@ p {
 }
 
 .arts-color {
-    margin-left: 17%;
+    margin-left: -2%;
 }
 
 .shop-search {
@@ -722,7 +723,7 @@ p {
     transform: translateY(150px);
     transform: translateX(-125%);
     opacity: 0;
-    transition: 2s all ease;
+    transition: 1s all ease;
 }
 
 .reveal.active {
@@ -1134,7 +1135,7 @@ p {
 
 .color-div:hover {
     animation-name: visible;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
 }
 
 @keyframes visible {
@@ -1276,10 +1277,10 @@ p {
         margin-top: 4%;
     }
 
-    .separate-gift {
+    /* .separate-gift {
         padding: 4.5%;
         margin-left: 16.5%;
-    }
+    } */
 
     .nav-content {
         display: none;
@@ -1693,10 +1694,10 @@ p {
 }
 
 @media(min-width:462px) and (max-width: 600px) {
-    .separate-gift {
+    /* .separate-gift {
         padding: 3.5%;
         margin-left: 11.5%;
-    }
+    } */
 
 
     .search-img {
@@ -1816,10 +1817,10 @@ p {
         margin-left: 6.5%;
     }
 
-    .separate-gift {
+    /* .separate-gift {
         padding: 2.5%;
         margin-left: 7.5%;
-    }
+    } */
 
     .trape {
         transform: translateX(-59px);
@@ -1855,10 +1856,10 @@ p {
         margin-left: 6.5%;
     }
 
-    .separate-gift {
+    /* .separate-gift {
         padding: 2.5%;
         margin-left: 6.5%;
-    }
+    } */
 
     .trape {
         transform: translateX(-71px);
